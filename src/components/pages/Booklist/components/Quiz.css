@@ -1,0 +1,132 @@
+.quizGame {
+    width: 975px;
+    margin-top: 200px;
+    /*margin: 0 auto;*/
+    /*position: relative;
+    left: 150px;*/
+}
+
+.book-score {
+    font-size: 28px;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-btn {
+    margin: 0 auto;
+    background-color: transparent;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 14px 75px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.next-btn:hover {
+    background-color: darkblue;
+}
+
+.results {
+    height: 300px;
+    text-align: center;
+}
+
+.congratulation {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.result-info {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.summary {
+    margin-top: 40px;
+    font-size: 20px;
+}
+.introToCM {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.CMblock-title {
+    font-size:30px;
+}
+
+.CMblock-danger {
+    width: 975px;
+    height: 400px;
+    margin-bottom: 20px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 1.8rem;
+}
+
+.CMblock-safe {
+    width: 975px;
+    height: 400px;
+    margin-bottom: 20px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 1.8rem;
+}
+
+.CMblock-reformable {
+    width: 975px;
+    height: 400px;
+    margin-bottom: 20px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 1.8rem;
+}
+
+.CMblock-fugitive {
+    width: 975px;
+    height: 400px;
+    margin-bottom: 20px;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 1.8rem;
+}
+
+.CMblock-text {
+    font-size: 20px;
+}
+
+.linktoArticle {
+    color: blue;
+}
+
+.appealLink {
+    color: orange;
+}
+
+.CMblock-appeal {
+    padding: 1.8rem;
+    background-color: transparent;
+    border: dotted 1px #DAD4D4;
+}
+
+.formLinkBookList {
+    color: orange;
+}

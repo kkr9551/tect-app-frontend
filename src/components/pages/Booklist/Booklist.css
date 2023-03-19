@@ -1,0 +1,11 @@
+.quizGameContainer {
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
