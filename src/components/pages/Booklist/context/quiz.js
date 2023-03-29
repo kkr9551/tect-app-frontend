@@ -1,10 +1,13 @@
 import React, { createContext, useReducer } from "react";
 import questions from "../data";
 import { shuffleAnswers } from "../helpers";
+import descriptions from "../data";
 
 const initialState = {
     questions,
+    descriptions,
     currentQuestionIndex: 0,
+    currentDescriptionIndex: 0, 
     showResults: false,
     correctAnswerCount: 0,
     answers: shuffleAnswers(questions[0]),
@@ -30,10 +33,12 @@ const reducer = (state, action) => {
             const showResults = state.currentQuestionIndex === state.questions.length - 1;
             const currentQuestionIndex = showResults ? state.currentQuestionIndex : state.currentQuestionIndex + 1;
             const answers = showResults ? [] : shuffleAnswers(state.questions[currentQuestionIndex]);
-            
+            const currentDescriptionIndex = showResults ? state.currentDescriptionIndex : state.currentDescriptionIndex + 1;
+
             return {
                 ...state,
                 currentQuestionIndex,
+                currentDescriptionIndex,
                 showResults,
                 answers,
                 currentAnswer: "",

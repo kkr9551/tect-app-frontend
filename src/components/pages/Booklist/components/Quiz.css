@@ -130,3 +130,14 @@
 .formLinkBookList {
     color: orange;
 }
+
+.gameRules {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ruleText {
+    font-size: 20px;
+}

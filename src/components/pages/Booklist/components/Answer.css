@@ -1,7 +1,7 @@
 .answer {
     width: 48%;
     background-color: #EFE6E6;
-    border: 3px solid #0094DA;
+    border: 5px solid #0094DA;
     min-height: 70px;
     cursor: pointer;
     margin-bottom: 30px;
@@ -9,7 +9,7 @@
 }
 
 .answer:hover {
-    border: 3px solid orange;
+    border: 5px solid orange;
 }
 
 .answer-text {
@@ -22,11 +22,11 @@
 }
 
 .correct-answer {
-    border: 3px solid #1EA55B;
+    border: 5px solid #1EA55B;
 }
 
 .wrong-answer {
-    border: 3px solid #DC0A0A;
+    border: 5px solid #DC0A0A;
 }
 
 .disabled-answer {

@@ -7,12 +7,12 @@ export const SliderData = [
     {
         image: "img/slide2.jpg",
         heading: "Translation and history",
-        desc: "The introduction of new books and translations brought about the cultural transfer. Not only do we focus on what remained and what was cut but we are also concerned with how translations shaped cultural, social and political transformation. ",
+        desc: "The introduction of new books and translations during the Soviet period brought about the cultural transfer not only from socialist authors, countries and societies, but also from authors and societies, which were not aligned with or even opposed Soviet values and ideology. We focus on what remained and what was cut. We are also concerned with how translations shaped cultural, social and political transformation. ",
     },
     {
         image: "img/slide3.jpg",
         heading: "Not simply about politics",
-        desc: "Detecting censored text in translations is not for any forms of propaganda or facile judgements. Every bit of effort at detection contributes to the narration comprised of the continuities and gaps in Estonian translation history. We need you! ",
+        desc: "Detecting censored text in translations is not for any forms of propaganda or facile judgements. Every bit of effort at detection contributes to a more adequate understanding of the continuities and gaps in Estonian translation history and, more broadly, cultural history. We need you! ",
     },
     {
         image: "img/slide4.jpg",

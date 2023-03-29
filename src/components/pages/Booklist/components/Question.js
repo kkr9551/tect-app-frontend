@@ -6,9 +6,12 @@ import Answer from './Answer';
 const Question = () => {
     const [quizState, dispatch] = useContext(QuizContext);
     const currentQuestion = quizState.questions[quizState.currentQuestionIndex];
+    const currentDescription = quizState.descriptions[quizState.currentDescriptionIndex];
+
     return (
         <div>
             <div className='question'>{currentQuestion.question}</div>
+            <div className='descriptionQ'>{currentDescription.description}</div>
             <div className='answers'>
                 {quizState.answers.map((answer, index) => (
                     <Answer 
