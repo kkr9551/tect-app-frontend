@@ -59,7 +59,7 @@ const Quiz = () => {
                         <div className='CMblock-safe'>
                             <h3 className='CMblock-title'>Safe</h3>
                             <p className='CMblock-text'>
-                                Safe text denoted the recommended classical or communist literature. For example, Pushikin's works and "Das Capital". This kind of literature contributed to shaping citizens' ideology and self-identification. However, due to the transformation of power structures in the communist party, Glavlit also imposed restrictions on safe books during the former leader's governance. For instance, during Khrushchev's Thaw, censorship policies turned to puritanism, focusing on sensitive content such as sexual description more than ideological conflicts. The power struggle also led to the large-scale removal of Lenin, Stalin, and Marx's works from libraries and book trade markets; the main reason was the obsolescence in socio-political development.  
+                                Safe text denoted the recommended classical or communist literature. For example, Pushikin's works and "Das Capital". This kind of literature contributed to shaping citizens' ideology and self-identification. However, due to the transformation of power structures in the communist party, Glavlit also imposed restrictions on safe books during the former leader's governance. For instance, during Khrushchev's Thaw, censorship policies turned to puritanism, focusing on sensitive content such as sexual description more than ideological conflicts. The power struggle also led to the large-scale removal of Stalin's works from libraries and book trade markets because Stalin's authority had been completely denied in the <a className='linktoArticle' rel='noreferrer' targe="_blank" href="https://en.wikipedia.org/wiki/On_the_Cult_of_Personality_and_Its_Consequences">"Secret Speech"</a> reported by Khrushchev.  
                             </p>
                         </div>
                         <div className='CMblock-reformable'>
@@ -71,7 +71,7 @@ const Quiz = () => {
                         <div className='CMblock-fugitive'>
                             <h3 className='CMblock-title'>Need more attention</h3>
                             <p className='CMblock-text'>
-                                'Need more attention' means that some books that might have been dangerous or reformable survived the strict scrutinisation. There were two situations. Firstly, some dangerous bBooks circulated underground. For instance, in Lithuania, though not officially introduced, the book “ On the Road” was quite popular among the young. Secondly, some dangerous books should have been strictely chekced but for different reasons they excaped. For example, because the institution of art and literature did not know much about <a className='linktoArticle' target="_blank" rel='noreferrer' href='https://et.wikipedia.org/wiki/Saul_Bellow'>Saul Bellow</a> &#40;1915-2005, an American writer and the only writer to win the Natoinal Book Award for Fiction 3 times&#41; and his works, the Estonian translation of his book “Herzog” came out in 1972. As for the story behind "Herzog", we recommend reading this <a className='linktoArticle' href="https://www.tandfonline.com/doi/abs/10.1080/13556509.2014.899096" target="_blank" rel='noreferrer'>article</a>.
+                                'Need more attention' means that some books that might have been dangerous or reformable survived the strict scrutinisation. There were two situations. Firstly, some Books circulated underground. For instance, in Lithuania, though not officially introduced, the book “ On the Road” was quite popular among the young. Secondly, some dangerous books should have been strictely chekced but for different reasons they excaped. For example, because the institution of art and literature did not know much about <a className='linktoArticle' target="_blank" rel='noreferrer' href='https://et.wikipedia.org/wiki/Saul_Bellow'>Saul Bellow</a> &#40;1915-2005, an American writer born in a family that emigrated from St. Peterberg&#41; and his works, the Estonian translation of his book “Herzog” came out in 1972. As for the story behind "Herzog", we recommend reading this <a className='linktoArticle' href="https://www.tandfonline.com/doi/abs/10.1080/13556509.2014.899096" target="_blank" rel='noreferrer'>article</a>.
                             </p>
                         </div>
                             
@@ -96,7 +96,7 @@ const Quiz = () => {
                         <p className='ruleText'>
                             Before taking up the position of Editor in Glavlit &#40;General Directorate for the Protection of State Secrets in the Press&#41;,
                             <br />
-                            You need to pass a quiz. You good grades is the sign of your loyalty to the party.
+                            You need to pass a quiz. Your good grades is the sign of your loyalty to the Party.
                             <br /> 
                             You have four tags to mark each of ten books below: Danger, Safe, Reformable, and Need more attention
                             <br />
@@ -106,7 +106,7 @@ const Quiz = () => {
                             <br />
                             Tag 'Reformable': books that need rewriting or cutting;
                             <br />
-                            Tag 'Need more attention': books having not been analysed;
+                            Tag 'Need more attention': books going unnoticed;
                         </p>
                     </div>
                     <div className='book-score'>
