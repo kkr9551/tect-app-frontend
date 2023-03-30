@@ -95,22 +95,22 @@ const Cardgame = () => {
                 });
                 if (choiceOne.alt === "the_original") {
                     setUnlockS1(true);
-                    return toast.success("Well done! You have unlocked the 1st story! Scroll down!");
+                    toast.success("Well done! You have unlocked the 1st story! Scroll down!");
                 } else if (choiceOne.alt === "russian_translation") {
                     setUnlockS2(true);
-                    return toast.success("Well done! You have unlocked the 2nd story! Scroll down!");
+                    toast.success("Well done! You have unlocked the 2nd story! Scroll down!");
                 } else if (choiceOne.alt === "religion") {
                     setUnlockS3(true);
-                    return toast.success("Well done! You have unlocked the 3rd story! Scroll down!");
+                    toast.success("Well done! You have unlocked the 3rd story! Scroll down!");
                 } else if (choiceOne.alt === "impeccable") {
                     setUnlockS4(true);
-                    return toast.success("Well done! You have unlocked the 4th story! Scroll down!");
+                    toast.success("Well done! You have unlocked the 4th story! Scroll down!");
                 } else if (choiceOne.alt === "ideals") {
                     setUnlockS5(true);
-                    return toast.success("Well done! You have unlocked the 6th story! Scroll down!");
+                    toast.success("Well done! You have unlocked the 6th story! Scroll down!");
                 } else if (choiceOne.alt === "ideological_opposition") {
                     setUnlockS6(true);
-                    return toast.success("Well done! You have unlocked the 7th story! Scroll down!");
+                    toast.success("Well done! You have unlocked the 7th story! Scroll down!");
                 }
                 resetTurn();
                 countPairs();
@@ -155,7 +155,7 @@ const Cardgame = () => {
                 </div>
                 
                 <button className="shuffle_btn" onClick={shuffleCards}>
-                    New Game
+                    Restart
                 </button>
 
                 <div className="card-grid">
@@ -185,7 +185,7 @@ const Cardgame = () => {
                             {/*<img src={storyBoard[0].src} alt="story1" />*/}
                             <div className="storyContent">
                                 <h3>The 1st Story</h3>
-                                <p className="storyText">Estonian translators in Soviet Estonia could translate literature directly from the original language. For instance, <a href="https://et.wikipedia.org/wiki/Johannes_Semper" target="_blank" rel="noreferrer">Johannes Semper</a> &#40;1892-1970, an Estonian poet, writer, translator and politician&#41; translated the Chilean communist poet Pablo Neruda's poems directly from the Spanish original. But he still faced attack after the translation was published. What happened on earth?</p>
+                                <p className="storyText">Estonian translators in Soviet Estonia could translate literature directly from the original language. For instance, <a className="linktoArticle" href="https://et.wikipedia.org/wiki/Johannes_Semper" target="_blank" rel="noreferrer">Johannes Semper</a> &#40;1892-1970, an Estonian poet, writer, translator and politician&#41; translated the Chilean communist poet Pablo Neruda's poems directly from the Spanish original. But he still faced attack after the translation was published. What happened on earth?</p>
                                 
                                 <img className="illustration_1" src="https://www.digar.ee/arhiiv/covers/9/4/2/195249/full.jpg" alt="NerudaTranslation" />
                                 
@@ -208,7 +208,7 @@ const Cardgame = () => {
                             <div className="storyContent">
                                 <h3>The 3rd Story</h3>
                                 <p className="storyText">
-                                    In translating children's literature which should be far less ideologically dangerous, tranlators still had to winnow text that contradicts communist culture. One target is religion-related content. For instance, words like "God" and "Paradise". In translating Rodari's "The Adventures of Cipollino, <a target="_blank" href="https://et.wikipedia.org/wiki/Aleksander_Kurtna" rel="noreferrer">Alexsander Kurtna</a> &#40;1914-1983, an Estonian polyglot translator&#41; referred to the Russian translation, omitting religion-related text. Religion censorship was prevalent in communist countries.
+                                    In translating children's literature which should be far less ideologically dangerous, tranlators still had to winnow text that contradicts communist culture. One target is religion-related content. For instance, words like "God" and "Paradise". In translating Rodari's "The Adventures of Cipollino, <a className="linktoArticle" target="_blank" href="https://et.wikipedia.org/wiki/Aleksander_Kurtna" rel="noreferrer">Alexsander Kurtna</a> &#40;1914-1983, an Estonian polyglot translator&#41; referred to the Russian translation, omitting religion-related text. Religion censorship was prevalent in communist countries.
                                 </p>
                                 <img className="illustration_3" src="https://vaimuvara.ee/wp-content/uploads/2020/05/Gianni-Rodari-Cipollino-seiklused.jpg" alt="onionAdventure" />
                             </div>
@@ -219,7 +219,7 @@ const Cardgame = () => {
                             <div className="storyContent">
                                 <h3>The 4th Story</h3>
                                 <p className="storyText">
-                                    Another standard that translators had to follow was to remove or rewrite text suspected to tarnish the representation of Russians and communists. Despite being popular in the USSR and other Eastern Pact countries, Hemingway's works suffered rewriting. For instance, in "For Whom the Bell Tolls", the character's recollection of Karkov &#40;a character in the novel, he is the well-connected Russian correspondent and a close friend of Robert Jordan&#41;'s bad teeth and the plot of Karkov living with wife and mistress could never remain. The <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/General_Directorate_for_the_Protection_of_State_Secrets_in_the_Press">Glavlit</a> &#40;General Directorate for the Protection of the State Secrets in the Press&#41; weighed heavily on the description that might preclude generating correct Russian characters.
+                                    Another standard that translators had to follow was to remove or rewrite text suspected to tarnish the representation of Russians and communists. Despite being popular in the USSR and other Eastern Pact countries, Hemingway's works suffered rewriting. For instance, in "For Whom the Bell Tolls", the character's recollection of Karkov &#40;a character in the novel, he is the well-connected Russian correspondent and a close friend of Robert Jordan&#41;'s bad teeth and the plot of Karkov living with wife and mistress could never remain. The <a className="linktoArticle" target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/General_Directorate_for_the_Protection_of_State_Secrets_in_the_Press">Glavlit</a> &#40;General Directorate for the Protection of the State Secrets in the Press&#41; weighed heavily on the description that might preclude generating correct Russian characters.
                                 </p>
                                 <img className="illustration_4" src="https://static.dw.com/image/19386329_804.jpg" alt="hemingway" />
                             </div>
