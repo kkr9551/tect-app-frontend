@@ -107,10 +107,10 @@ const Cardgame = () => {
                     toast.success("Well done! You have unlocked the 4th story! Scroll down!");
                 } else if (choiceOne.alt === "ideals") {
                     setUnlockS5(true);
-                    toast.success("Well done! You have unlocked the 6th story! Scroll down!");
+                    toast.success("Well done! You have unlocked the 5th story! Scroll down!");
                 } else if (choiceOne.alt === "ideological_opposition") {
                     setUnlockS6(true);
-                    toast.success("Well done! You have unlocked the 7th story! Scroll down!");
+                    toast.success("Well done! You have unlocked the 6th story! Scroll down!");
                 }
                 resetTurn();
                 countPairs();
@@ -183,9 +183,9 @@ const Cardgame = () => {
                         {unlockS1 && (
                         <>
                             {/*<img src={storyBoard[0].src} alt="story1" />*/}
-                            <div className="storyContent">
+                            <div className="storyContent" id="story_1">
                                 <h3>The 1st Story</h3>
-                                <p className="storyText">Estonian translators in Soviet Estonia could translate literature directly from the original language. For instance, <a className="linktoArticle" href="https://et.wikipedia.org/wiki/Johannes_Semper" target="_blank" rel="noreferrer">Johannes Semper</a> &#40;1892-1970, an Estonian poet, writer, translator and politician&#41; translated the Chilean communist poet Pablo Neruda's poems directly from the Spanish original. But he still faced attack after the translation was published. What happened on earth?</p>
+                                <p className="storyText">Estonian translators in Soviet Estonia could translate literature directly from the original language. For instance, <a className="linktoArticleWiki" href="https://et.wikipedia.org/wiki/Johannes_Semper" target="_blank" rel="noreferrer">Johannes Semper</a> &#40;1892-1970, an Estonian poet, writer, translator and politician&#41; translated the Chilean communist poet <a rel="noreferrer" className="linktoArticleWiki" target="_blank" href="https://en.wikipedia.org/wiki/Pablo_Neruda">Pablo Neruda</a> &#40;1904-1973, a Chilean poet and politician&#41;'s poems directly from the Spanish original. But he still faced attack after the translation was published. What happened on earth?</p>
                                 
                                 <img className="illustration_1" src="https://www.digar.ee/arhiiv/covers/9/4/2/195249/full.jpg" alt="NerudaTranslation" />
                                 
@@ -194,10 +194,10 @@ const Cardgame = () => {
                         {unlockS2 && (
                         <>
                             {/*<img src={storyBoard[1].src} alt="story2" />*/}
-                            <div className="storyContent">
+                            <div className="storyContent" id="story_2">
                                 <h3>The 2nd Story</h3>
                                 <p className="storyText">
-                                    Semper &#40;image below&#41; received censure from the State Publishing House because he unsettled the assumption: Neruda is pro-communism, and thus while translating his work into Estonian referring to the Russian translation was the optimum. Without referring to the Russian translation in this case was under the suspicion of dedication to the Western world outside the USSR. 
+                                    <a className="linktoArticleWiki" href="https://et.wikipedia.org/wiki/Johannes_Semper" target="_blank" rel="noreferrer">Johannes Semper</a> &#40;image below&#41; received censure from the State Publishing House because he unsettled the assumption: <a className="linktoArticleWiki" target="_blank" href="https://en.wikipedia.org/wiki/Pablo_Neruda" rel="noreferrer">Neruda</a> is a pro-communism Chilean Poet, and thus while translating his work into Estonian referring to the Russian translation was the optimum. Without referring to the Russian translation in this case was under the suspicion of dedication to the Western world outside the USSR. 
                                 </p>
                                 <img className="illustration_2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReBhoxnDS-EV03gPhIXFEZQ9ViExzdfPK9IQ&usqp=CAU" alt="Semper" />
                             </div>
@@ -205,10 +205,10 @@ const Cardgame = () => {
                         {unlockS3 && (
                         <>
                             {/*<img src={storyBoard[2].src} alt="story3" />*/}
-                            <div className="storyContent">
+                            <div className="storyContent" id="story_3">
                                 <h3>The 3rd Story</h3>
                                 <p className="storyText">
-                                    In translating children's literature which should be far less ideologically dangerous, tranlators still had to winnow text that contradicts communist culture. One target is religion-related content. For instance, words like "God" and "Paradise". In translating Rodari's "The Adventures of Cipollino, <a className="linktoArticle" target="_blank" href="https://et.wikipedia.org/wiki/Aleksander_Kurtna" rel="noreferrer">Alexsander Kurtna</a> &#40;1914-1983, an Estonian polyglot translator&#41; referred to the Russian translation, omitting religion-related text. Religion censorship was prevalent in communist countries.
+                                    In translating children's literature which should be far less ideologically dangerous, tranlators still had to winnow text that contradicts communist culture. One target is religion-related content. For instance, words like "God" and "Paradise". In translating <a className="linktoArticleWiki" target="_blank" href="https://en.wikipedia.org/wiki/Gianni_Rodari" rel="noreferrer">Gianni Rodari</a> &#40;1920-1980, an Italian writer and journalist, most famous for his children's literature works&#40;'s "The Adventures of Cipollino, <a className="linktoArticleWiki" target="_blank" href="https://et.wikipedia.org/wiki/Aleksander_Kurtna" rel="noreferrer">Alexsander Kurtna</a> &#40;1914-1983, an Estonian polyglot translator&#41; referred to the Russian translation, omitting religion-related text. Religion censorship was prevalent in communist countries.
                                 </p>
                                 <img className="illustration_3" src="https://vaimuvara.ee/wp-content/uploads/2020/05/Gianni-Rodari-Cipollino-seiklused.jpg" alt="onionAdventure" />
                             </div>
@@ -216,17 +216,17 @@ const Cardgame = () => {
                         {unlockS4 && (
                         <>
                             {/*<img src={storyBoard[3].src} alt="story4" />*/}
-                            <div className="storyContent">
+                            <div className="storyContent" id="story_4">
                                 <h3>The 4th Story</h3>
                                 <p className="storyText">
-                                    Another standard that translators had to follow was to remove or rewrite text suspected to tarnish the representation of Russians and communists. Despite being popular in the USSR and other Eastern Pact countries, Hemingway's works suffered rewriting. For instance, in "For Whom the Bell Tolls", the character's recollection of Karkov &#40;a character in the novel, he is the well-connected Russian correspondent and a close friend of Robert Jordan&#41;'s bad teeth and the plot of Karkov living with wife and mistress could never remain. The <a className="linktoArticle" target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/General_Directorate_for_the_Protection_of_State_Secrets_in_the_Press">Glavlit</a> &#40;General Directorate for the Protection of the State Secrets in the Press&#41; weighed heavily on the description that might preclude generating correct Russian characters.
+                                    Another standard that translators had to follow was to remove or rewrite text suspected to tarnish the representation of Russians and communists. Despite being popular in the USSR and other Eastern Pact countries, Hemingway's works suffered rewriting. For instance, in <a className="linktoArticleWiki" href="https://en.wikipedia.org/wiki/For_Whom_the_Bell_Tolls" target="_blank" rel="noreferrer">"For Whom the Bell Tolls"</a>, the character's recollection of Karkov &#40;a character in the novel, he is the well-connected Russian correspondent and a close friend of Robert Jordan&#41;'s bad teeth and the plot of Karkov living with wife and mistress could never remain. The <a className="linktoArticleWiki" target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/General_Directorate_for_the_Protection_of_State_Secrets_in_the_Press">Glavlit</a> &#40;General Directorate for the Protection of the State Secrets in the Press&#41; weighed heavily on the description that might preclude generating correct Russian characters.
                                 </p>
                                 <img className="illustration_4" src="https://static.dw.com/image/19386329_804.jpg" alt="hemingway" />
                             </div>
                         </>)}
                         {unlockS5 && (
                         <>
-                            <div className="storyContent">
+                            <div className="storyContent" id="story_5">
                                 <h3>The 5th Story</h3>
                                 <p className="storyText">Rewriting also serves to reinforce the ideal of communism and make it self-evident. "Our common cause", this word is the usual worn-out cliché in the Soviet press. The case study "Hemingway's Transformations in Soviet Union" points out that "our common cause" or "the common cause" suggests no need to explain what is that cause and why it is good. This case reveals that censorship manipulation means not only omitting the text the communist authority will never allow but also rewriting and re-producing new text.</p>
                                 <img className="illustration_5" src="https://osta.img-bcg.eu/item/13/5581/29005581.jpg" alt="hemingwaytranslation" />
@@ -234,7 +234,7 @@ const Cardgame = () => {
                         </>)}
                         {unlockS6 && (
                         <>
-                            <div className="storyContent">
+                            <div className="storyContent" id="story_6">
                                 <h3>The 6th Story</h3>
                                 <p className="storyText">Another feature of censorship manipulation was to enforce the ideological opposition. Not only can it be as complicated as the conflict between communist countries and the Western world, but also the daily opposition between right and wrong. Let's go back to the Estonian translation of "The Adventures of Cipollino". There is no modifier before "Prince Lemon" in the original; in the Russian translation, negative adjectives "arrogant, cruel, but cowardly" were added. This strategy forms the stark contrast between good and bad characters, thus strengthening the ideological divide between the good oppressed and the bad oppressors.</p>
                                 <img className="illustration_6" src="http://media.voog.com/0000/0040/2501/photos/Aleksander%20Kurtna.jpg" alt="kurtna" />

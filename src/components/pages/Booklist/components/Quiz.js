@@ -100,13 +100,13 @@ const Quiz = () => {
                             <br /> 
                             You have four tags to mark each of ten books below: Danger, Safe, Reformable, and Need more attention
                             <br />
-                            Tag 'Danger': unacceptable authors and their works;
+                            'Danger': unacceptable authors and their works;
                             <br />
-                            Tag 'Safe': Russian classical literature and communist writing;
+                            'Safe': Russian classical literature and communist writing;
                             <br />
-                            Tag 'Reformable': books that need rewriting or cutting;
+                            'Reformable': books that need rewriting or cutting;
                             <br />
-                            Tag 'Need more attention': books going unnoticed;
+                            'Need more attention': books going unnoticed;
                         </p>
                     </div>
                     <div className='book-score'>

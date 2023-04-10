@@ -58,7 +58,7 @@ const data = [
 
     {
         question: "Joseph Stalin, 'Marxism and Probelms of Linguistics' in 1957",
-        description: "Stalin decisively ended the acceptability of a linguistic theory with this book. But the situation changed after Stalin died.",
+        description: "Stalin decisively ended the acceptability of Marrism's Japhetic theory ---- a theory connected the Kartvelian languages with Semitic languages ---- with this book. But the situation changed after Stalin died.",
         incorrectAnswers: [
             "Reformable",
             "Safe",

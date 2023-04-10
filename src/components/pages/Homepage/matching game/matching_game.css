@@ -104,10 +104,35 @@
 .storyContent {
     width: 600px;
     height: 520px;
-    background-color: #A26320;
+    /*background-color: #A26320;*/
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#story_1 {
+    background-color: #E81E1E;
+}
+
+#story_2 {
+    background-color: #F17F15;
+}
+
+#story_3 {
+    background-color: #EEBE12;
+}
+
+#story_4 {
+    background-color: #8605b9;
+    
+}
+
+#story_5 {
+    background-color: #4985DF;
+}
+
+#story_6 {
+    background-color: #106A1E;
 }
 
 .storyContent h3 {
@@ -164,6 +189,15 @@
 
 .linkToBL {
     color: orange;
+}
+
+.linktoArticleWiki {
+    font-size: 18px;
+    color: #fff;
+}
+
+.linktoArticleWiki:hover {
+    text-decoration: underline;
 }
 
 .storyText {
